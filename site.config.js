@@ -1,31 +1,25 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "Arithyst",
-    image: "/avatar.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "Music Video Collector",
-    bio: "ProRes/Masters Music Video Collector",
-    email: "arithystt@gmail.com",
+    name: "stargamer",
+    image: "/20UMGIM12176.rgb.jpg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    role: "master/prores collector",
+    bio: "i love prores music videos.",
+    email: "stargamerprores@gmail.com",
     linkedin: "",
     github: "",
     instagram: "",
   },
-  projects: [
-    {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
-    },
-  ],
   // blog setting (required)
   blog: {
-    title: "Arithyst's Collections",
-    description: "Here is my prores/masters collection",
+    title: "stargamer",
+    description: "stargamer prores collection.",
     theme: "auto", // ['light', 'dark', 'auto']
   },
 
   // CONFIG configration (required)
-  link: "https://arithyst.vercel.app/",
-  since: 2022, // If leave this empty, current year will be used.
+  link: "https://stargamerprores.vercel.app/",
+  since: 2023, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
   seo: {
@@ -39,9 +33,9 @@ const CONFIG = {
 
   // plugin configuration (optional)
   googleAnalytics: {
-    enable: false,
+    enable: true,
     config: {
-      measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
+      measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "G-8B47SWBCM0",
     },
   },
   googleSearchConsole: {
